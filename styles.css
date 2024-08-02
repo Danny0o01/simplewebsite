@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.header-content p {
+    margin: 5
+    px 0;
+    font-size: 1.1em;
+}
+
+.header-content a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.header-content a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #2c3e50;
+}
+
+.education-item, .certification-item, .job {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #2980b9;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul li {
+    list-style-type: disc;
+    margin: 5px 0;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.skills li:nth-child(2n) {
+    margin-right: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .skills li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
